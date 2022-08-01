@@ -1,0 +1,8 @@
+name: Build the application
+on:
+  push:
+    branches:
+      - feature-*
+  pull_request:
+    branches:
+      - master
